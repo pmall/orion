@@ -1,0 +1,25 @@
+{
+    "name": "orion/plugin",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "pmall",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "composer-plugin-api": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orion\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Orion\\Plugin"
+    },
+    "require-dev": {
+        "composer/composer": "^1.5"
+    }
+}
