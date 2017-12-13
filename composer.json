@@ -17,7 +17,7 @@
         }
     },
     "extra": {
-        "class": "Orion\\Plugin"
+        "class": "Orion\\OrionProviderInstallerPlugin"
     },
     "require-dev": {
         "composer/composer": "^1.5"
